@@ -1,0 +1,78 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+
+
+
+const CartItem = ({ item, adjustQty, removeFromCart }) => {
+  const [input, setInput] = useState(item.qty);
+
+  const onChangeHandler = (e) => {
+    const newValue = e.target.value;
+    setInput(newValue);
+    adjustQty(item.id, newValue);
+  };
+
+  const incrementQty = () => {
+    const newValue = input + 1;
+    setInput(newValue);
+    adjustQty(item.id, newValue);
+  };
+
+  const decrementQty = () => {
+    if (input > 1) {
+      const newValue = input - 1;
+      setInput(newValue);
+      adjustQty(item.id, newValue);
+    }
+  };
+
+  return (
+    <div>
+      <div className="product-container-singleitem">
+        <img src={item.image} alt={item.title} />
+        <div className="product-desc-singleitem">
+          <p>{item.title}</p>
+          <p>{item.description}</p>
+          <p>$ {item.price}</p>
+        </div>
+        <div>
+          <div>
+            <button id="pll" className="btn btn-outline-dark" onClick={incrementQty}><FontAwesomeIcon icon={faPlus} /></button>
+            <button id="mine" className="btn btn-outline-dark" onClick={decrementQty}><FontAwesomeIcon icon={faMinus} /></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+const mapDispatchToProps = (dispatch) => {
+  return {
+    adjustQty: (id, value) => dispatch(adjustItemQty(id, value)),
+    removeFromCart: (id) => dispatch(removeFromCart(id)),
+  };
+};
+
+export default connect(null, mapDispatchToProps)(CartItem);
