@@ -6,7 +6,7 @@ const INITIAL_STATE = {
       id: 1,
       name: "Male Clothings",
       image:
-        "https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGVsZWN0cm9uaWNzfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+        "https://media.istockphoto.com/id/1330548216/photo/asian-chinese-senior-tailor-man-with-facial-hair-looking-at-camera-smiling-in-atelier-studio.webp?b=1&s=170667a&w=0&k=20&c=MF4nzbrvjb1RDnv9XqvgWi7KfQ29LRYllev8X_c1Dgk=",
       createdAt: "2023-08-30T13:15:40.330Z",
       updatedAt: "2023-08-30T13:15:40.330Z",
     },
