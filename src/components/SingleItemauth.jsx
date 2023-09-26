@@ -18,7 +18,6 @@ const SingleItemauth = ({ current, addToCart,cartCount}) => {
       <img src={current.image} alt={current.title} />
       <div className="product-desc-singleitem">
         <p>{current.title}</p>
-        <p>{current.description}</p>
         <p>$ {current.price}</p>
 
         <button id="www" className="btn btn-danger" onClick={() => {

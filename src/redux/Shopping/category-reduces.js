@@ -6,7 +6,7 @@ const INITIAL_STATE = {
       id: 1,
       name: "Male Clothings",
       image:
-        "https://images.unsplash.com/photo-1456725203480-0be828fcd7ae?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80",
+        "https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGVsZWN0cm9uaWNzfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
       createdAt: "2023-08-30T13:15:40.330Z",
       updatedAt: "2023-08-30T13:15:40.330Z",
     },
@@ -14,21 +14,21 @@ const INITIAL_STATE = {
       id: 2,
       name: "Female Clothings",
       image:
-        "https://images.unsplash.com/photo-1485230895905-ec40ba36b9bc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZmVtYWxlJTIwY2xvdGhpbmdzfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1541787457429-b1766a4766b6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8ZmVtYWxlJTIwY2xvdGh8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
       createdAt: "2023-08-30T13:16:00.389Z",
       updatedAt: "2023-08-30T13:16:00.389Z",
     },
     {
       id: 3,
       name: "Electronics",
-      image:"https://images.unsplash.com/photo-1579006318110-42d7992b6635?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1474&q=80",
+      image:"https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGVsZWN0cm9uaWNzfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
       createdAt: "2023-08-30T13:16:30.863Z",
       updatedAt: "2023-08-30T13:16:30.863Z",
     },
     {
       id: 4,
       name: "Jewelery",
-      image:"https://images.unsplash.com/photo-1620893749736-346f4a8fe866?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80",
+      image:"https://images.unsplash.com/photo-1572545884955-6f3d7b6540a0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGpld2VsZXJ5fGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
       createdAt: "2023-08-30T13:16:54.261Z",
       updatedAt: "2023-08-30T13:16:54.261Z",
     },

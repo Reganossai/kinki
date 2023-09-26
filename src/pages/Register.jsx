@@ -298,6 +298,8 @@ const Register = () => {
           />
         </div>
 
+        <input type="email" />
+
         <h1 className="agreement">
           By creating an account, I consent to the processing of my personal
           data in accordance with the <b>PRIVACY POLICY</b>

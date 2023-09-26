@@ -66,7 +66,7 @@ const Menauth = ({ current, addToCart }) => {
             <img src={men.image} alt={men.title} />
           </div>
 
-          <p className="filter-desc">{men.description}</p>
+          <p className="filter-desc">{men.title}</p>  
 
           <p className="peter">$ {men.price}</p>
 

@@ -56,7 +56,7 @@ const Electronicsauth = ({current,addToCart}) => {
             <img src={elec.image} alt={elec.title} />
           </div>
 
-          <p>{elec.description}</p>
+          <p>{elec.title}</p>
 
           <p className="peter">$ {elec.price}</p>
 

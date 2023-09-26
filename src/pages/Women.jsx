@@ -64,7 +64,7 @@ const Women = ({ current, addToCart }) => {
         <div key={women.id} className="filter">
           <img src={women.image} alt={women.title} />
 
-          <p className="filter-desc">{women.description}</p>
+          <p className="filter-desc">{women.title}</p>
 
           <p className="peter">$ {women.price}</p>
 

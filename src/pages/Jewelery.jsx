@@ -62,7 +62,7 @@ const Jewelery = ({ current, addToCart }) => {
             <img src={jew.image} alt={jew.title} />
           </div>
 
-          <p>{jew.description}</p>
+          <p>{jew.title}</p>
 
           <p className="peter">$ {jew.price}</p>
 
