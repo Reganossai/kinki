@@ -2428,7 +2428,9 @@ input[type=number] {
 
     .limo p {
         position: absolute;
-        padding: 50px 0px 0px 10px;
+        padding-top: 50px ;
+        padding-left: 10%;
+        width: 150px;
         font-size: 17px;
         font-weight: bold;
         z-index: 30;
