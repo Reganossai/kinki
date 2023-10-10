@@ -298,8 +298,6 @@ const Register = () => {
           />
         </div>
 
-        <input type="email" />
-
         <h1 className="agreement">
           By creating an account, I consent to the processing of my personal
           data in accordance with the <b>PRIVACY POLICY</b>
@@ -310,7 +308,7 @@ const Register = () => {
             CREATE ACCOUNT
           </button>
           <Link to={ROUTES.SIGN_IN}>
-            <b>Log in</b>
+            <b>Already Have an account? Sign in</b>
           </Link>
         </div>
       </form>
